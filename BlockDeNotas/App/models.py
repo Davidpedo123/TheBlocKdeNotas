@@ -8,6 +8,7 @@ class Nota(models.Model):
     contenido = models.TextField()
     fecha_creacion = models.DateTimeField(auto_now_add=True)
     fecha_modificacion = models.DateTimeField(auto_now=True)
+    audio = models.FileField(upload_to='')
 
     def __str__(self):
         return self.titulo

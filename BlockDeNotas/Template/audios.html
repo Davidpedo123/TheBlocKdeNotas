@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lista de Audios</title>
+</head>
+
+<body>
+    <h1>Lista de Audios</h1>
+    {% for audio in audios %}
+    <audio controls>
+        <source src="{{ MEDIA_URL }}{{ audio }}" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    {% endfor %}
+</body>
+
+</html>

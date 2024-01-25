@@ -8,7 +8,7 @@ Este proyecto contiene una API para manejar notas. En la API puedes encontrar to
 
 1. Navega hasta la carpeta `BlockDeNotas` en tu terminal.
 2. Levanta el servidor ejecutando el siguiente comando:
-`python3 manage.py runserver
+`python3 manage.py runserver`
 
 3.Para acceder a donde estan ubicadas las notas entra a:
-`http://127.0.0.1:8000/notas/
+`http://127.0.0.1:8000/notas/`

@@ -2,7 +2,7 @@
 
 from django.db import models
 
-
+#Este es el modelo el cual crea las tabla y columnas de la base de datos
 class Nota(models.Model):
     titulo = models.CharField(max_length=200)
     contenido = models.TextField()

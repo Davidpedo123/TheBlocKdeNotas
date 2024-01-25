@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<!--En este html es un ejemplo de como llamar al contenido de la API, mediante un ID especifico-->
+
+<head>
+    <title>Ejemplo de la llamada a las Notas</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <h2>Notas ejemplo</h2>
+    <div id="notas"></div>
+
+    <script>
+        $(document).ready(function () {
+            $.getJSON("/notas/", function (data) {
+                var notas = "";
+                $.each(data, function (key, value) {
+                    if (value.id == 3) {
+                        notas += "<p>ID: " + value.id + "</p>";
+                        notas += "<p>Titulo: " + value.Titulo + "</p>";
+                        notas += "<p>contenido: " + value.contenido + "</p>";
+                        notas += "<p>fecha_creacion: " + value.fecha_creacion + "</p>";
+                        notas += "<p>fecha_modificacion: " + value.fecha_modificacion + "</p>";
+                        notas += "<p>audios: " + value.audio + "</p>";
+                    }
+                });
+                $("#notas").html(notas);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

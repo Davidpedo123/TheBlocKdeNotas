@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Image from "next/image"
 import ImagenHero from '../../../public/Images/Hero.jpg'
 export default function Hero() {
@@ -7,7 +8,9 @@ export default function Hero() {
             <div className="hero-text">
                 <h1 className="text-3xl text-lime-600 m-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
                 <p className="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, odit.</p>
+                <Link href="/notas">
                 <button className="bg-lime-600 p-4 m-4 rounded">MI PRIMERA NOTA</button>
+                </Link>
             </div>
         <Image
         width={400}

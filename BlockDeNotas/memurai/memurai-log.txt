@@ -1,0 +1,10 @@
+[7812] 29 Jan 11:51:10.546 # --- Memurai is starting ---
+[7812] 29 Jan 11:51:10.548 # Memurai Developer version=4.1.1, API=7.2.4, instance-name=, pid=7812, just started
+[7812] 29 Jan 11:51:10.550 # Service-name=Memurai
+[7812] 29 Jan 11:51:10.556 # Usage of Memurai Developer Edition in a production environment is prohibited; it also automatically shuts down after 10 days. For more details see: https://www.memurai.com/faq
+[7812] 29 Jan 11:51:10.559 # Configuration loaded
+[7812] 29 Jan 11:51:10.564 * monotonic clock: Windows QueryPerformanceCounter
+[7812] 29 Jan 11:51:10.569 * Running mode=standalone, port=6379.
+[7812] 29 Jan 11:51:10.640 # Memurai QID = C11EFD13410E57EC;98FD271250F7C2C6;E82668C06B37C020;FABD29015B48F30D;15760DCC203A835F;7A0F7E59A918352C;79A1E0A8DBB26EC4;FCD2E7B7E820DC39;FCD2E6B7E820DA86;3531FCE56A5F6BA8;3531F5E56A5F5FC3;79A1E1A8DBB27077;79A1DDA8DBB269AB
+[7812] 29 Jan 11:51:10.646 * Server initialized
+[7812] 29 Jan 11:51:10.649 * Ready to accept connections tcp
